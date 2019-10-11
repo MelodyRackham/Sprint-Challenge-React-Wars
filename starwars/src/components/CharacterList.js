@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import SWCharacter from './SWCharacter.js';
-import styled from 'styled-components';
 
 const CharacterList = () => {
   const [Characters, setCharacters] = useState([]);
